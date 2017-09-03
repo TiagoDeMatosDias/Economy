@@ -1,0 +1,6 @@
+D:\OneDrive\programming\eco\Eco\Eco\bin\Debug\Eco.exe.config
+D:\OneDrive\programming\eco\Eco\Eco\bin\Debug\Eco.exe
+D:\OneDrive\programming\eco\Eco\Eco\bin\Debug\Eco.pdb
+D:\OneDrive\programming\eco\Eco\Eco\obj\Debug\Eco.csprojResolveAssemblyReference.cache
+D:\OneDrive\programming\eco\Eco\Eco\obj\Debug\Eco.exe
+D:\OneDrive\programming\eco\Eco\Eco\obj\Debug\Eco.pdb
