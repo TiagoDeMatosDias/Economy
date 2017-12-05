@@ -234,15 +234,14 @@ class EcoAgent
     public void buy(EcoAgent[] agentArray)
     {
       int current_available_cheapest = find_cheapest();
-      bool loop = true;
-      while(cash>=global_data[1, current_available_cheapest] && loop==true)
+      for(int i=0; i< total_agents; i++)
       {
 
         double total_value_sale = global_data[1,current_available_cheapest] * global_data[2,current_available_cheapest];
         double remainder = total_value_sale - cash;
 
         if(remainder <=0){
-          
+
           if (Type == 0)
           {
               //Pop
@@ -283,13 +282,13 @@ class EcoAgent
 int old_cheapest = current_available_cheapest;
   current_available_cheapest = find_cheapest();
   if(current_available_cheapest == old_cheapest){
-    loop = false;
+
   }
 
             if (current_available_cheapest == -1)
             {
                 current_available_cheapest = 0;
-                loop = false;
+                
             }
 
 
